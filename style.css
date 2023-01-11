@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    font-family : 'DotGothic16', sans-serif;
+    background-color: #ffde59;
+    color: #ff914d;
+}
+
+#title {
+    font-size: 70px;
+    text-align: center;
+}
+
+#dashboard {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#mainChoice {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.icon {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.icon:hover:enabled {
+    scale: 1.2;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 180px;
+    height: auto;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#scoreboard img {
+    width: 150px;
+    height: auto;
+}
+
+#butPos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+#replay {
+    display: block;
+    align-self: center;
+    background-color: #ff914d;
+    color: #ffde59;
+    cursor: pointer;
+    font-family : 'DotGothic16', sans-serif;
+    font-size: 18px;
+    padding: .7rem;
+    border: 0;
+    border-radius: 12px;
+    transition: 0.1s ease-in-out;
+}
+
+footer {
+    background-color: #ff914d;
+    color: #ffde59;
+    text-align: center;
+    margin-inline-end: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:55px;
+    width:100%;
+    }
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}

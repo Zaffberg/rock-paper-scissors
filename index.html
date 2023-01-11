@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-<script type="text/javascript" src="prs.js"></script>
+<h1 id="title">rock pawper scissors</h1>
+<div>
+    <div id="dashboard"></div>
+    <div id="mainChoice">
+        <button class="icon" id="rock" ><img src="icon/rock.png"></button>
+        <button class="icon" id="paper" ><img src="icon/paper.png"></button>
+        <button class="icon" id="scissors" ><img src="icon/scissors.png"></button>
+    </div>
+    <div id="scoreboard">
+        <div id="userRow">
+            <div id="userChoice"></div>
+            <div id="userScore"></div>  
+        </div>
+        <div id="comRow">
+            <div id="comChoice"></div>
+            <div id="comScore"></div>
+        </div>
+    </div>
+</div>
+<div id="butPos">
+<button id="replay" onclick="replayGame()">New purr</button>
+</div>
+<footer>
+    <p>Made by <a href="https://github.com/Zaffberg">Zaffberg</a> for <a href="https://www.theodinproject.com/">The Odin Project</a> </p>
+</footer>
+<script type="text/javascript" src="prs.js"></script> 
 </body>
 </html>
